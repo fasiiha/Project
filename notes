@@ -1,0 +1,21 @@
+// app.use() is a middleware
+// server: {
+//     "/api": "http://localhost:3000", so any url which has /api will automaticallt detect localhost:3000 means it will append wherever /api will exist also it means request bhi aik hi jaga se a rhi ha
+//   },
+// proxy -> instead of creating a fixed url (like http:localhost) we use proxy
+// axios have some additionality functionalitites thats why its better than fetch
+// cors -> check origin i.e. set origins which are supposed to be allowed and which are not(can be url and path)
+
+//its a bad practice to use run build and make a dist folder paste it into backend folder and then deploy
+
+//Data Modeling -> models the data i.e. defines structure of data
+// Before started creating database, first know what type of data will be stored in the database
+// then create the data model
+// now create the 'models' folder and then start creating the structures.
+//mongoose will help u in creating schema
+
+//to export schema -> we will use model to export
+//model will take two things (kia model banaon, kis ki basis pr model banoan)
+
+//type: mongoose.Schema.Types.ObjectID
+//ref: "name from where u r getting ur data"
